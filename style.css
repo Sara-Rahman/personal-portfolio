@@ -1,10 +1,10 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
     padding-top: 5%;
 }
 
@@ -14,12 +14,14 @@ body{
 .title{
     color: rgb(72, 167, 173);
 }
+
 #h1-border{
    
     border-image: linear-gradient(#c31432, #240b36);
     border-image-slice: 1;
     padding-left: 2%;
     border-left: 7px solid;
+    font-size: 40px;
 }
 .link-button{
     text-decoration: none;
@@ -36,20 +38,29 @@ body{
    
    
 }
-.border-box
-{
+.border-box{
     
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    /* box-shadow: 10px 10px 40px gray; */
     border-radius: 8px;
-   
     box-sizing: border-box;
     border-radius: 26px  ;
     width: 376px;
     height: 360px;
+}
+
+#mission-color{
+    color: rgb(41, 10, 56);
+   
+}
+
+.mission-title
+{
+    
+    padding-bottom: 30px;
+    text-align: center;
 }
 #mission{
 
@@ -65,19 +76,15 @@ body{
     background-color: rgb(235, 224, 127);  
 } 
 
+.title-color{
+    color: #c31432;
+}
+
 .border-box img{
     height: 141px;
     width: 141px;
 }
-.mission-title
-{
-    
-    padding-bottom: 30px;
-    text-align: center;
-}
-.title-color{
-    color: #c31432;
-}
+
 .bg-pic{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -132,15 +139,12 @@ padding-top: 50px;
 font-family: "Lobster", cursive;
 color: rgb(255, 255, 255);
 padding-top: 50px;
-
-    
 }
 .footer
 {
     text-align: center;
     background-color: black;
     height: 177px;
-    /* width: 1440px; */
     color: white;
 }
 .footer-color{
