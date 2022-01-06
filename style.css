@@ -7,9 +7,7 @@ body{
     padding-left: 5%;
     padding-top: 5%;
 }
-/* section{
-    display: flex;
-} */
+
 .half-width img{
     width: 60%;
 }
@@ -18,27 +16,20 @@ body{
 }
 #h1-border{
    
-    border-image: linear-gradient(blue, cyan);
+    border-image: linear-gradient(#c31432, #240b36);
     border-image-slice: 1;
     padding-left: 2%;
     border-left: 7px solid;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgba(233, 215, 54, 0.822), rgba(235, 41, 41, 0.884));
+    background-image: linear-gradient(#DA4453, #89216B);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 400;
 }
-/* section{
-    height: 500px;
-    padding-bottom: 150px;
-    
-} */
-/* .middle{
-    background-position: left;
-} */
+
 .flexible-container{
     display: flex;
     padding-bottom: 100px;
@@ -85,7 +76,7 @@ body{
     text-align: center;
 }
 .title-color{
-    color: rebeccapurple;
+    color: #c31432;
 }
 .bg-pic{
     background-image: url(images/shapes/shape-1.png);
@@ -104,12 +95,43 @@ body{
     
     margin-left: 150px;
 }
+.input-field input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+  .text-msg{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+  .contact{
+      box-sizing: border-box;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+  .self-part{
+      padding: 40px;
+  }
 
-.footer h3
+.footer h1
 {
-    font-style: italic;
-    text-align: center;
-   padding-top: 50px;
+
+text-align: center;
+padding-top: 50px;
+font-family: "Lobster", cursive;
+color: rgb(255, 255, 255);
+padding-top: 50px;
 
     
 }
@@ -124,3 +146,4 @@ body{
 .footer-color{
     color: tomato;
 }
+
